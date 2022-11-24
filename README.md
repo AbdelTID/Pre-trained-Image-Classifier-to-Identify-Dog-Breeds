@@ -1,6 +1,6 @@
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
 
-# Pre-trained-Image-Classifier-to-Identify-Dog-Breeds 🐶 🐶 
+# Pre-trained-Image-Classifier-to-Identify-Dog-Breeds 🐶  
 
 ![](dog_breeds.png "Dog 🐶 Breeds")
 
