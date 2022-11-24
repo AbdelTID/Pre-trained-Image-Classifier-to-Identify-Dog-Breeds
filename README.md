@@ -24,6 +24,8 @@ Given our results, the `best` model architecture is `VGG`. It outperformed both 
 
 ## My Results 
 
+At the end of each file you can see different percentage 
+
 - [`VGG`](Udacity-Project1/vgg_pet-images.txt)
 
 - [`AlexNet`](Udacity-Project1/alexnet_pet-images.txt)
