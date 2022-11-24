@@ -1,0 +1,26 @@
+39ca76a7c9861df9
+f2c138ba4fb4188d
+22c57a952cb7158f
+5d4920790a0e3ea8
+c2448341942347e9
+4cd2bb972921c5ef
+7426342899562e58
+30b87c5646bca07d
+
+
+
+VsSQS2r8MKC)g%f                    #password 
+
+
+
+cd binomial_package_files
+python setup.py sdist
+pip install twine
+
+# commands to upload to the pypi test repository
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+pip install --index-url https://test.pypi.org/simple/ dsnd-probability
+
+# command to upload to the pypi repository
+twine upload dist/*
+pip install dsnd-probability

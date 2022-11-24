@@ -1,0 +1,76 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                  rabbit_01.jpg  label:                     rabbit
+ 2 key:                 Tea_cup_01.jpg  label:                    tea cup
+ 3 key:              lhasa_apso_01.jpg  label:                 lhasa apso
+ 4 key:              lhasa_apso_02.jpg  label:                 lhasa apso
+
+     MATCH:
+
+ NOT A MATCH:
+
+                 rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare
+
+                Tea_cup_01.jpg: 
+Real:                    tea cup   Classifier:                            cup
+
+             lhasa_apso_01.jpg: 
+Real:                 lhasa apso   Classifier:                       shih-tzu
+
+             lhasa_apso_02.jpg: 
+Real:                 lhasa apso   Classifier:                       shih-tzu
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                 rabbit_01.jpg: 
+Real:                     rabbit   Classifier:                           hare  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                Tea_cup_01.jpg: 
+Real:                    tea cup   Classifier:                            cup  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             lhasa_apso_01.jpg: 
+Real:                 lhasa apso   Classifier:                       shih-tzu  
+PetLabelDog: 1  ClassLabelDog: 1
+
+             lhasa_apso_02.jpg: 
+Real:                 lhasa apso   Classifier:                       shih-tzu  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match           : 0.000000
+pct_correct_dogs    : 100.000000
+pct_correct_breed   : 0.000000
+pct_correct_notdogs : 100.000000
+
+INCORRECT Dog Breed Assignment:
+Real:                 lhasa apso   Classifier:                       shih-tzu
+Real:                 lhasa apso   Classifier:                       shih-tzu
+
+** Total Elapsed Runtime: 0:0:0
