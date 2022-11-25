@@ -328,16 +328,7 @@ pct_correct_breed   : 90.000000 %
 pct_correct_notdogs : 90.000000 %
 
 INCORRECT Dog/NOT Dog Assignments:
-Real:                        cat   Classifier:          tabby, tabby cat, cat
-Real:           great horned owl   Classifier: great grey owl, great gray owl, strix nebulosa
-Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger
-Real:                 polar bear   Classifier: ice bear, polar bear, ursus maritimus, thalarctos maritimus
-Real:                      gecko   Classifier: african chameleon, chamaeleo chamaeleon
-Real:                      gecko   Classifier: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
 Real:                        cat   Classifier:   norwegian elkhound, elkhound
-Real:                      skunk   Classifier:     skunk, polecat, wood pussy
-Real:                        cat   Classifier:              egyptian cat, cat
-Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit
 
 INCORRECT Dog Breed Assignment:
 Real:             great pyrenees   Classifier:                         kuvasz
