@@ -14,7 +14,7 @@
 
 - Classifying the breeds of dogs, for the images that are of dogs.
 
-### To succeed the project, our results must be the same as the Project results from [Udacity](https://learn.udacity.com/) show below
+### To complete the project, our results must be the same as the Project results from [Udacity](https://learn.udacity.com/) show below
 
 
 ![](Expected_Results.png "Projects Results")
