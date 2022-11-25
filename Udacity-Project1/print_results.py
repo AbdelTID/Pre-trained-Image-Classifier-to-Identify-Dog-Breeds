@@ -86,7 +86,7 @@ def print_results(results_dic, results_stats_dic, model,
             #  pet label is-a-dog and classifier label is-NOT-a-dog 
             #               -OR- 
             #  pet label is-NOT-a-dog and classifier label is-a-dog 
-            if ( sum(results_dic[key][3:]) != 2 ):
+            if ( sum(results_dic[key][3:]) == 1 ):
                 print("Real: {:>26}   Classifier: {:>30}".format(results_dic[key][0],
                                                           results_dic[key][1]))
                 
